@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <script language="JavaScript" src="form.js"></script>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form></form>
+        <label for="iNome">Nome: </label>
+        <input type="text" id="iNome" size="40"  required>
+        <br>
+        <label for="iTelefone">Telefone: </label>
+        <input type="text" id="iTelefone" size="40" required>
+        <br>
+        <label for="iEmail">Email: </label>
+        <input type="text" id="iEmail" size="40" required>
+        <br>
+        <label for="iMensagem">Mensagem: </label>
+        <input type="text" id="iMensagem" size="40" required>
+        <br>
+        <br>
+        <button type="submit" id="bVerificar" onclick="fMensagem()">Verificar</button>
+        <br>
+        <br>
+        <div id="dmensagem"></div>
+    </form>
+</body>
+</html>
